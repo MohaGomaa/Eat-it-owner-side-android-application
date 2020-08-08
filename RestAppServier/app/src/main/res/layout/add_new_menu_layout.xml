@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimary"
+            android:hint="Enter Name"
+            android:id="@+id/edtName"
+            android:inputType="text"
+            app:met_baseColor="@color/colorPrimary"
+            app:met_primaryColor="@color/colorPrimary"
+            app:met_singleLineEllipsis="true"
+            app:met_floatingLabelAnimating="true"
+            app:met_floatingLabel="highlight"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:gravity="center"
+            >
+
+            <Button
+                android:id="@+id/btnSelect"
+                android:layout_width="120dp"
+                android:layout_height="37dp"
+                android:background="@drawable/button_animationlog2"
+                android:text="Select Image"
+                android:layout_marginRight="10dp"
+                android:textColor="@android:color/white"
+                android:textSize="12dp" />
+
+            <Button
+                android:id="@+id/btnUpload"
+                android:layout_width="120dp"
+                android:layout_height="37dp"
+                android:background="@drawable/button_animationlog2"
+                android:text="upload"
+                android:layout_marginRight="10dp"
+                android:textColor="@android:color/white"
+                android:textSize="12dp" />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

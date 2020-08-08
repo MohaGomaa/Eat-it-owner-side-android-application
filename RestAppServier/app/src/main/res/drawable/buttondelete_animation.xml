@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+ <item android:state_pressed="true" android:drawable="@drawable/ic_arrow_drop_down_circle_black_24dp">
+<color android:color="#fff"></color>
+ </item>
+
+ <item android:drawable="@drawable/ic_arrow_drop_down_circleblack_24dp"/>
+ <color android:color="#ffff"></color>
+
+</selector>
